@@ -1,0 +1,36 @@
+algoritmo "Média de um aluno"
+
+var
+  res: caractere
+  Media: real
+  Nota1, Nota2, Nota3, Nota4, Nota5: real
+
+inicio
+
+  escreval("Digite a 1° nota: ")
+  leia(Nota1)
+  escreval("Digite a 2° nota: ")
+  leia(Nota2)
+  escreval("Digite a 3° nota: ")
+  leia(Nota3)
+  escreval("Digite a 4° nota: ")
+  leia(Nota4)
+  escreval("Digite a 5° nota: ")
+  leia(Nota5)
+
+  Media <- (Nota1+Nota2+Nota3+Nota4+Nota5)/5
+
+se (Media>=7) entao
+  res <- "Aprovado!"
+ senao
+ se (Media>=5) entao
+  res <- "Recuperação."
+ senao
+  res <- "Reprovado."
+ fimse   
+fimse
+  
+  escreval("Resultado: ", res " | Média: ", Media)
+  
+
+ fimalgoritmo 
