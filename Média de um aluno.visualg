@@ -30,7 +30,7 @@ se (Media>=7) entao
  fimse   
 fimse
   
-  escreval("Resultado: ", res " | Média: ", Media)
+  escreval("Resultado: ", res, " | Média: ", Media)
   
 
  fimalgoritmo 
